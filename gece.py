@@ -45,9 +45,7 @@ async def start(event):
                        Button.inline("🛠️ Əmrlər", data="help")
                       ],
                       [Button.url('🤖 Məni Qrupa Əlavə Et', f'https://t.me/{USERNAME}?startgroup=a')],
-                     [Button.url('📣 Söhbət Qrupumuz', f'https://t.me/{group}')],
-                      [Button.url('📣 Kanalımız', f'https://t.me/{support}')],
-                       [Button.url('👨🏻‍💻 Developer', f'https://t.me/{sahib}')]
+                      [Button.url('📣 Kanalımız', f'https://t.me/{support}')], [Button.url('👨🏻‍💻 Developer', f'https://t.me/{sahib}')]
                     ),
                     link_preview=False)
 
